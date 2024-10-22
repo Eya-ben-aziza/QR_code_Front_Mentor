@@ -31,27 +31,24 @@ img {
     align-items: center;
 }
 
-h3 {
+h3,p {
     margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
     font-style: normal;
     text-align: center;
-    
+}
+
+h3 {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 700;
 }
 
 p {
-    margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
-    font-style: normal;
-    text-align: center;
 }
 
 
