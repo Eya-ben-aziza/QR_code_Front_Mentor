@@ -51,17 +51,21 @@ p {
     font-weight: 200;
 }
 
+.attribution { 
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .block {
-        margin-left: 50%;
+        margin-top: 20%;
         
     }
 }
 
 @media (max-width: 480px) {
     .block {
-        margin-left: 50%;
+        margin-top: 50%;
     }
 }
