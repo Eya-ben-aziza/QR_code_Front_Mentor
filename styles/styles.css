@@ -54,3 +54,17 @@ p {
     text-align: center;
 }
 
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .block {
+        margin-left: 50%;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .block {
+        margin-left: 50%;
+    }
+}
