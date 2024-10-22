@@ -6,14 +6,18 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    color: black ;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /*to center it horizantally from right to left*/
+    align-items: center; /*to center it from top to bottom*/
+    min-height: 100vh; 
     
 }
 
 .block {
-    margin-top: 5%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    /* margin-top: 5%; */
+    /* margin-left: 50%; */
+    /* transform: translateX(-50%); */
     border: 1px solid white;
     height: 500px;
     width: 340px;
